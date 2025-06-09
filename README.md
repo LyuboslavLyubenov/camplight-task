@@ -36,3 +36,14 @@ pnpm dev
 ```bash
 pnpm lint
 ```
+
+## Project Structure
+- **apps/**
+  - `web`: Next.js frontend
+  - `api`: Node.js backend (delivers countries data)
+- **packages/**
+  - `components`: Shared UI components
+  - `config-ts`: TypeScript base config
+  - `config-eslint`: ESLint base config
+  - `types`: Shared domain types
+
