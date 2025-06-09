@@ -8,6 +8,15 @@ React 18 + TypeScript app for exploring countries with:
 - Favourites & notes
 - Error handling
 
+## Testing Approach
+- 6 comprehensive hook tests for `useCountries` covering:
+  - Data fetching
+  - Search/filter functionality
+  - Error handling
+  - Favorites & notes
+- Manual verification for UI interactions
+- Skipped React.lazy due to testing framework constraints
+
 ## Tech Stack
 - React 18
 - TypeScript
