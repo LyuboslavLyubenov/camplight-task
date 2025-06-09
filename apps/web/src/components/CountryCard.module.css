@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.flag {
+  width: 4rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.content {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.region {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.capital {
+  font-size: 0.875rem;
+}
+
+.favorite {
+  color: #eab308;
+  fill: currentColor;
+}

@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+.flagSection {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .flagSection {
+    width: 50%;
+  }
+}
+
+.flagWrapper {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.flag {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.infoSection {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .infoSection {
+    width: 50%;
+  }
+}
+
+.infoCard {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.infoTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.infoGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoLabel {
+  font-weight: 500;
+}

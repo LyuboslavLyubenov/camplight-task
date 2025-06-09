@@ -1,0 +1,12 @@
+{
+    "name": "@camplight-task/domain",
+    "type": "module",
+    "exports": {
+      "default": "./index.ts"
+    },
+    "types": "./index.ts",
+    "devDependencies": {
+      "@camplight-task/typescript-config": "workspace:*",
+      "typescript": "latest"
+    }
+  }

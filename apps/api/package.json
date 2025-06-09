@@ -1,0 +1,20 @@
+{
+  "name": "@camplight-task/api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node ./dist/server.js"
+  },
+  "dependencies": {
+    "fastify": "5.3.3"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "ts-node": "10.9.2",
+    "nodemon": "3.1.0",
+    "@camplight-task/eslint-config": "workspace:*",
+    "@camplight-task/typescript-config": "workspace:*"
+  }
+}
